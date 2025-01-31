@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Infos } from '../components/Product/styles';
 
 class Food {
