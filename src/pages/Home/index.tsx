@@ -2,7 +2,6 @@ import React from 'react';
 import Banner from '../../components/Banner';
 import ProductList from '../../components/ProductList';
 
-import japonesa from '../../assets/images/sushi.png';
 import italiana from '../../assets/images/macarrao.png';
 import Food from '../../models/Food';
 
@@ -68,7 +67,7 @@ const Home: React.FC = () => (
     <Banner />
     <ProductList
       title="Hioki Sushi"
-      food={Cardapio.filter((item) => item.category === 'Japonesa')}
+      food={Cardapio.filter((item) => item.category === 'Italiana')}
     />
     <ProductList
       title="La Dolce Vita Trattoria"

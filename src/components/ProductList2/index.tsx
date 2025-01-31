@@ -20,7 +20,7 @@ const ProductList: React.FC<Props> = ({ title, food }) => (
             description={food.description || ''}
             image={food.image || ''}
             infos={food.Infos || []}
-            title={food.title || ''}
+            title={food.title || ''} // Certifique-se de passar title do food aqui
           />
         ))}
       </List>

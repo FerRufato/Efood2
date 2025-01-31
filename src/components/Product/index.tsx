@@ -16,6 +16,7 @@ const Product: React.FC<Props> = ({
   description,
   infos,
   image,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   category,
 }) => (
   <Card>
