@@ -9,6 +9,7 @@ export type Props = {
   food: Food[];
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const ProductList: React.FC<Props> = ({ title, food }) => (
   <Container>
     <div className="container">
