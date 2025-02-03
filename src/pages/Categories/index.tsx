@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductList from '../../components/ProductList2';
-import Header from '../../components/Header';
-import PresentationImage from '../../components/PresentationImage/index';
+
 import italiana from '../../assets/images/Pizza.png';
 import Food from '../../models/Food';
 
@@ -64,8 +63,6 @@ const Cardapio: Food[] = [
 
 const Categories: React.FC = () => (
   <>
-    <Header />
-    <PresentationImage />
     <ProductList
       title="La Dolce Vita Trattoria"
       food={Cardapio.filter((item) => item.category === 'Italiana')}

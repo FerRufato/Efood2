@@ -14,10 +14,10 @@ const Header: React.FC = () => (
   <HeaderContainer>
     <BackgroundImage />
     <Wrapper>
-      <LinkLeft>0 produto(s) no carrinho</LinkLeft>
+      <LinkLeft>Restaurantes</LinkLeft>
       <Logo src={logo} alt="Logo" />
       <Title></Title>
-      <LinkRight>Restaurantes</LinkRight>
+      <LinkRight>0 produto(s) no carrinho</LinkRight>
     </Wrapper>
   </HeaderContainer>
 );
